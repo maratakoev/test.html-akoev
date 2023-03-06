@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: nunito sans, Arial;
+}
+body * {
+    box-sizing: border-box;
+
+}
+
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.button {
+    background: #e3b873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.logo {
+    color: #e3b873;
+
+}
+
+.header {
+    background-color: black;
+    
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+
+}
+
+.header-navigation {
+    list-style: none;
+    display: flex;
+
+}
+.header-navigation-item {
+    margin-right: 47px;
+}
+.header-navigation-item a {
+    text-decoration: none;
+    color: white;
+    font-style: regular;
+}
+
+.hero {
+    background-image: url('./images/hero.jpg');
+    background-size: cover;
+    height: 707px;
+    padding-top: 194px;
+    position: relative;
+
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+
+}
+.hero-container {
+    position: relative;
+    z-index: 1;
+}
+
+.title {
+    margin: 0;
+    font-family: Yeseva One,'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
